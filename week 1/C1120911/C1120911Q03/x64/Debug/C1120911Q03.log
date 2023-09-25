@@ -1,0 +1,5 @@
+﻿  main.c
+D:\vic\Coding\github\NTUST-2023_Lab.of-Computer-Programming\week 1\C1120911\C1120911Q03\main.c(8,6): warning C4013: 'gets' 未定義; 假設 extern 傳回整數
+D:\vic\Coding\github\NTUST-2023_Lab.of-Computer-Programming\week 1\C1120911\C1120911Q03\main.c(9,8): warning C4047: '函式': 'const char *' 與 'char *[50]' 間接取值的層級不同
+D:\vic\Coding\github\NTUST-2023_Lab.of-Computer-Programming\week 1\C1120911\C1120911Q03\main.c(9,7): warning C4024: 'puts': 型式和實質參數 1 不同的類型
+  C1120911Q03.vcxproj -> D:\vic\Coding\github\NTUST-2023_Lab.of-Computer-Programming\week 1\C1120911\x64\Debug\C1120911Q03.exe
