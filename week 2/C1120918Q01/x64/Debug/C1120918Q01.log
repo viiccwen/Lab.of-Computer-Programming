@@ -1,0 +1,3 @@
+﻿  main.c
+D:\vic\Coding\github\NTUST-2023_Lab.of-Computer-Programming\week 2\C1120918Q01\main.c(9,1): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  C1120918Q01.vcxproj -> D:\vic\Coding\github\NTUST-2023_Lab.of-Computer-Programming\week 2\x64\Debug\C1120918Q01.exe
