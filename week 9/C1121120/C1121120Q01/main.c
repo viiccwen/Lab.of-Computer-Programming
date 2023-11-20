@@ -4,6 +4,54 @@
 #include <stdbool.h>
 #include <math.h>
 
+/*
+For a given maze, there's a simple algorithm for walking through the maze that guarantees finding the exit (assuming there's an exit). If there's not an exit, you'll arrive at the starting location again. Place your right hand on the wall to your right and begin walking forward. Never remove your hand from the wall. If the maze turns to the right, you follow the wall to the right. As long as you do not remove your hand from the wall, eventually you'll arrive at the exit of the maze.
+1. The input is a 15-by-15 maze.
+2. The maze is guaranteed to have an entry at the left and an exit on the right (if there exists one exit).
+3. The '#' symbols represent the walls where you cannot walk through.
+4. The 'X' symbols represent the possible paths.
+Sample Input 1:
+###############
+#XXXXXXXXX#XXX#
+#X#X#####X###X#
+#X#X#XXXXXXX#X#
+#X#######X###X#
+#X#X#XXXXXXXXX#
+###X###X#######
+#XXXXXXX#X#XXX#
+#X#######X#X###
+XX#XXXXX#XXX#XX
+#X#X###X#X#X#X#
+#XXX#XXXXX#XXX#
+#X#####X#####X#
+#XXXXX#XXXXX#X#
+###############
+Sample Input 2:
+###############
+#X#XXXXXXXXX#X#
+#X#X#X###X#X#X#
+#XXX#X#XXX#XXX#
+#########X###X#
+XXXXXXXXXXXX#X#
+###X#######X###
+#XXXXXXXXX#XXX#
+#X#X#####X###X#
+#X#X#XXXXXXX#X#
+#X#######X###X#
+#X#X#XXXXXXXXX#
+###X###X#######
+#XXX###XXXXXXX#
+###############
+1. Please follow the given algorithm to solve and show the solution of the maze.
+2. If the maze does have a solution, print "This maze has a solution".
+3. If the maze does not have a solution, print "This maze has no solution".
+Sample Output 1:
+This maze has a solution
+Sample Output 2:
+This maze has no solution
+
+*/
+
 char maze[15][15];
 int start[2];
 
